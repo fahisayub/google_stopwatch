@@ -1,38 +1,44 @@
 .App {
-  text-align: center;
+width: 500px;
+height: 300px;
+margin: auto;
+border: 1px solid grey;
+background-color: black;
+color: white;
+border-radius: 10px;
+margin-top: 50px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Tabbar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content:space-evenly;
+  font-size:larger;
+  padding: 10px;
+}
+.Tabbar>div{
+  width: 50%;
+  text-align: center;
+  text-decoration-color: rgb(234, 236, 240);
+  text-underline-offset: 100%;
+  text-decoration-thickness: 3px;
+}
+.Buttons>button{
+padding: 10px;
+width: 100px;
+font-size:medium;
+margin: 10px;
+}
+.Timer{
+height: 50%;
+width: 100%;
+font-size:80px;
+padding: 15px;
+box-sizing: border-box;
+}
+.Stopwatch{
+  height: 50%;
+width: 100%;
+font-size:80px;
+padding: 15px;
+box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
